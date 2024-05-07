@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más información</title>
+    <script>
+        var contadorImagenes = 1;
+        function intercambiarImagen(numeroImagen) {
+          var imagen = document.getElementById('miImagen');
+          imagen.src = "img/imagen" + numeroImagen + ".jpg";
+        }
+      </script>
+      <style>
+         body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+      </style>
+</head>
+<body>
+    <table style="text-align: center; font-family: Arial, Helvetica, sans-serif; width: 100%; height: 50px;">
+        <tr>
+            <td><a href="productos.html"><button style="width: 100%; height: 100%; color: white; background-color: rgb(255, 187, 0); border: 0px; font-size: 20px;">Productos</button></a></td>
+            <td><a href="tiendas.html"><button style="width: 100%; height: 100%; color: white; background-color: rgb(0, 170, 212); border: 0px; font-size: 20px;">Tiendas</button></a></td>
+            <td><a href="registrarse.html"><button style="width: 100%; height: 100%; color: white; background-color: darkblue; border: 0px; font-size: 20px;">Registrarse</button></a></td>
+        </tr>
+    </table>
+    <table style="width: 100%; text-align: center;">
+        <tr>
+            <td colspan="4" rowspan="2" style="width: 40%;"><img style="width: 100%;" id="miImagen" src="img/imagen1.jpg" alt="Imagen 1"></td>
+            <td style="width: 60%;">
+                HUSH PUPPIES / CALZADO
+                <br>SKU: 30054099001
+                <h1>Zapatos Marcus negro para Hombre</h1>
+                <h1>Q599.99</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Talla:</h2>
+                <button>6</button>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>10</button>
+                <button>11</button>
+                <button>12</button>
+            </td>
+        </tr>
+        <tr>
+            <td><button onclick="intercambiarImagen(1)"><img style="width: 100px;" src="img/imagen1.jpg" alt=""></button></td>
+            <td><button onclick="intercambiarImagen(2)"><img style="width: 100px;" src="img/imagen2.jpg" alt=""></button></td>
+            <td><button onclick="intercambiarImagen(3)"><img style="width: 100px;" src="img/imagen3.jpg" alt=""></button></td>
+            <td><button onclick="intercambiarImagen(4)"><img style="width: 100px;" src="img/imagen4.jpg" alt=""></button></td>
+        </tr>
+    </table>
+    <br><div style="text-align: center;">
+       Zapatos de vestir elaborado en cuero la tecnologia zero g lo hace extremadamente flexible, comodo y ligero. Reduce el cansancio al caminar y provee maxima amortiguacion en cada paso.
+       <br>
+       <br><iframe width="560" height="315" src="https://www.youtube.com/embed/snxAWKqAN7c?si=bOposGqoUtiEstIK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <table style="width: 100%; height: 50px; background-color: rgb(0, 0, 56); color: white;">
+        <tr>
+            <td>PBX: 2145-7865 - Dirección: 12va av, 4ta calle, 4-25, Zona 1, Guatemala</td>
+            <td style="text-align: right;">Carnet: 2018-027303 - Nombre: Carlos Tavico</td>
+        </tr>
+    </table>
+</body>
+</html>

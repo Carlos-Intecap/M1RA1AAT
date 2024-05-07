@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <style>
+        body{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    </style>
+</head>
+<body>
+    <table style="text-align: center; font-family: Arial, Helvetica, sans-serif; width: 100%; height: 50px;">
+        <tr>
+            <td><a href="index.html"><button style="width: 100%; height: 100%; color: white; background-color: rgb(255, 187, 0); border: 0px; font-size: 20px;">Inicio</button></a></td>
+            <td><a href="tiendas.html"><button style="width: 100%; height: 100%; color: white; background-color: rgb(0, 170, 212); border: 0px; font-size: 20px;">Tiendas</button></a></td>
+            <td><a href="productos.html"><button style="width: 100%; height: 100%; color: white; background-color: darkblue; border: 0px; font-size: 20px;">Productos</button></a></td>
+        </tr>
+    </table>
+    <h3 style="text-align: center;">Registrarse</h3>
+    <form action="" style="margin: auto; width: 75%; padding: 20px;">
+        <br><label for="txt_nombre">Nombre de Usuario:</label>
+        <br><br><input type="text" name="txt_nombre" placeholder="Nombre" style="width: 100%;">
+        <br><br><label for="txt_password">Contraseña:</label>
+        <br><br><input type="password" name="txt_password" placeholder="Ingrese una contraseña" style="width: 100%;">
+        <br><br><label for="txt_confirmar">Confirmar Contraseña:</label>
+        <br><br><input type="password" name="txt_confirmar" placeholder="Vuelva a ingresar su contraseña" style="width: 100%;">
+        <br><br><label for="txt_apellido">Apellido(s)</label>
+        <br><br><input type="text" name="txt_apellido" placeholder="Apellido(s)" style="width: 100%;">
+        <br><br><label for="txt_correo">Correo electrónico:</label>
+        <br><br><input type="email" name="txt_correo" placeholder="Correo electrónico" style="width: 100%;">
+        <table style="width: 100%;">
+            <tr>
+                <td><br>Sexo: 
+                    <label for="">Hombre</label>
+                    <input type="radio" value="H" name="opt_sexo">
+                    <label for="">Mujer</label>
+                    <input type="radio" value="M" name="opt_sexo"></td>
+                <td style="text-align: right;"><label for="">
+                    <br>Fecha de Nacimiento:</label>
+                    <input type="date" name="txt_fecha"></td>
+            </tr>
+        </table>
+        <br><br><label for="">Nacionalidad: </label>
+        <select name="lst_nacionalidad" id="">
+            <option value="1">Guatemala</option>
+            <option value="2">Mexico</option>
+            <option value="3">El Salvador</option>
+            <option value="4">Honduras</option>
+            <option value="5">Nicaragua</option>
+            <option value="6">Costa Rica</option>
+            <option value="7">Panama</option>
+            <option value="8">Belice</option>
+        </select>
+        <br><div style="text-align: center;">
+            <a href="index.html">
+                <input type="button" name="btn_registrarse" value="Registrarse">
+            </a>
+        </div>
+    </form>
+    <table style="width: 100%; height: 50px; background-color: rgb(0, 0, 56); color: white;">
+        <tr>
+            <td>PBX: 2145-7865 - Dirección: 12va av, 4ta calle, 4-25, Zona 1, Guatemala</td>
+            <td style="text-align: right;">Carnet: 2018-027303 - Nombre: Carlos Tavico</td>
+        </tr>
+    </table>
+</body>
+</html>
